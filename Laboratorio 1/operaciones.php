@@ -23,6 +23,6 @@
     
     <button type="submit" name="calcular">Calcular</button>
   </form>
-  <a href="index.html">Volver al menú</a>
+  <a href="index.php">Volver al menú</a>
 </body>
 </html>
