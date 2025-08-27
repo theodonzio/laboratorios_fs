@@ -26,6 +26,6 @@
     <button type="submit" name="calcular_area">Calcular Área</button>
   </form>
   
-  <a href="index.html">Volver al menú</a>
+  <a href="index.php">Volver al menú</a>
 </body>
 </html>
