@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: #c5c5c5;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0px; 
+}
+
+header nav a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+}
+
+header nav a:hover{
+    color: #505050;
+}
+
+main{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+}
+
+input{
+    padding: 5px 0px;
+}
+
+button{
+    padding: 10px 0px;
+    background-color: #608a60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #79ad79;
+}
