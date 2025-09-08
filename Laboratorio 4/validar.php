@@ -25,7 +25,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     </header>
 
 <div class="container">
-<h2>Parte 1: Validar CI</h2>
+<h2>Validar CI</h2>
 <form method="post">
     <input type="text" name="ci_val" placeholder="8 dígitos">
     <button type="submit">Validar</button>

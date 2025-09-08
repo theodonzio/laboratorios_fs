@@ -11,6 +11,8 @@
        <a href="../../Laboratorio 6/index.php"><button class=regresar>Regresar</button></a>
     </header>
 
+    <h2>Ficha del Estudiante</h2>
+
     <main>
         <form method="post" action="calculo.php" onsubmit="return validar()" id="formstudent" >
 

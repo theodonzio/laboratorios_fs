@@ -32,6 +32,9 @@ if (isset($_POST['numero'])) {
     </header>
 
     <main>
+    <h2>Factorial</h2>
+
+
         <form id="formFactorial" method="post">
             <label><h3>Ingresa un numero:</h3></label>
             <input type="number" name="numero" id="numero" required>

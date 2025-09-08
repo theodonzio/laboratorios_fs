@@ -66,5 +66,5 @@ if(isset($_POST["potencia"])) {
     echo "Resultado: ".$calc->potencia($_POST["base"], $_POST["exponente"]);
 }
 
-echo "<br><a href='../Laboratorio 6/index.php'><button class=regresar>Regresar</button></a>";
+echo "<br><a href='../Laboratorio 6/index.php'><button>Regresar</button></a>";
 ?>

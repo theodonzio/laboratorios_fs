@@ -58,3 +58,48 @@ main ul li img:hover{
 .regresar{
     padding: 10px;
 }
+
+h2{
+    margin: 10px;
+}
+
+form{
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px #000000;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #000000;
+    margin: 10px;
+    gap: 10px;
+}
+
+form button{
+    padding: 10px;
+    background-color: #b45634;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #ff581c;
+}
+
+form input{
+    padding: 5px;
+}
+
+form select{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

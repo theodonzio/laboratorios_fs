@@ -20,15 +20,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
         <header>
     <a href="../../Laboratorio 6/index.php"><button class=regresar>Regresar</button></a>
     </header>
-    </header>
+
+<h2>5 de Oro</h2>
 
     <main>
         <form method="post" onsubmit="return validar()">
-            <h2>Cantidad de jugadas: </h2>
+            <h3>Cantidad de jugadas: </h3>
             <input type="number" id="jugadas" name="jugadas">
             <button type="submit" value="Calcular">Calcular</button>
         </form>

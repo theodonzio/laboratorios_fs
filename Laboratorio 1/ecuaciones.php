@@ -14,8 +14,8 @@
   <h2>Ecuaciones y Potencias</h2>
   
   <!-- Fórmula de Bhaskara -->
-  <h3>Ecuación Cuadrática</h3>
   <form action="calculos.php" method="post">
+      <h3>Ecuación Cuadrática</h3>
     <label>a:</label>
     <input type="number" name="a" required>
     <label>b:</label>
@@ -26,16 +26,18 @@
   </form>
   
   <!-- Raíz cuadrada -->
-  <h3>Raíz Cuadrada</h3>
+
   <form action="calculos.php" method="post">
+     <h3>Raíz Cuadrada</h3>
     <label>Número:</label>
     <input type="number" name="numero_raiz" required>
     <button type="submit" name="raiz">Calcular</button>
   </form>
   
   <!-- Potencias -->
-  <h3>Potencia</h3>
+
   <form action="calculos.php" method="post">
+      <h3>Potencia</h3>
     <label>Base:</label>
     <input type="number" name="base" required>
     <label>Exponente:</label>

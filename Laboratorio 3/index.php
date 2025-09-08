@@ -71,8 +71,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && $_POST["accion"] === "calcular") {
     <div class="container">
         <!-- Conversor -->
         <div class="card">
-            <h3>Conversor de bases</h3>
+            
             <form method="post">
+                <h3>Conversor de bases</h3>
                 <input type="hidden" name="accion" value="convertir">
                 Número: <input type="number" name="numero" required>
                 <select name="base">
@@ -96,8 +97,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && $_POST["accion"] === "calcular") {
 
         <!-- Calculadora -->
         <div class="card">
-            <h3>Calculadora entre bases</h3>
+            
             <form method="post">
+                <h3>Calculadora entre bases</h3>
                 <input type="hidden" name="accion" value="calcular">
                 Número 1: <input type="number" name="num1" required>
                 Número 2: <input type="number" name="num2" required>

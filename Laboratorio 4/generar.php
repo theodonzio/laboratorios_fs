@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     </header>
 
 <div class="container">
-<h2>Parte 2: Generar DV</h2>
+<h2>Generar DV</h2>
 <form method="post">
     <input type="text" name="ci_gen" placeholder="7 dígitos">
     <button type="submit">Generar</button>
