@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>labV</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../../Laboratorio 6/style.css">
 </head>
 <body>
     <header>
-        <h1>laboratorio V | Ficha de Estudiante</h1>
+       <a href="../../Laboratorio 6/index.php"><button class=regresar>Regresar</button></a>
     </header>
 
     <main>

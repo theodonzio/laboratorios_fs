@@ -29,7 +29,7 @@
         <a href="../Laboratorio 3/index.php"><li><img src="../img(apps)/icons8-numbers-64.png" alt="">Bases numericas</li></a>
         <a href="../Laboratorio 4/generar.php"><li><img src="../img(apps)/icons8-id-64.png" alt="">Identificador de Cedulas</li></a>
         <a href="../Laboratorio 4/validar.php"><li><img src="../img(apps)/icons8-numbers-64.png" alt="">Digitos Verificadores</li></a>
-        <li><img src="../img(apps)/icons8-id-64 (1).png" alt="">Ficha del Estudiante</li>
+        <a href="../Laboratorio 5/php/index.php"><li><img src="../img(apps)/icons8-id-64 (1).png" alt="">Ficha del Estudiante</li></a>
     </ul>
     </main>
 </body>
