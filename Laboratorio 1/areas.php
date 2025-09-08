@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Cálculo de Áreas</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../Laboratorio 6/style.css">
 </head>
 <body>
+  <header>
+  <a href="../Laboratorio 6/index.php"><button class=regresar>Regresar</button></a>
+</header>
+
+
   <h2>Áreas de Figuras Geométricas</h2>
   
   <form action="calculos.php" method="post">
@@ -25,7 +30,6 @@
     
     <button type="submit" name="calcular_area">Calcular Área</button>
   </form>
-  
-  <a href="index.php">Volver al menú</a>
+
 </body>
 </html>

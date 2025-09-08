@@ -45,7 +45,7 @@ main ul li img{
 }
 
 main ul li img:hover{
-    background-color: #535353;
+    background-color: rgb(83, 83, 83);
 }
 
 .cartel{
@@ -53,4 +53,8 @@ main ul li img:hover{
     align-items: center;
     justify-content: center;
     padding: 20px;
+}
+
+.regresar{
+    padding: 10px;
 }

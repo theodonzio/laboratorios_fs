@@ -3,10 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Operaciones Básicas</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../Laboratorio 6/style.css">
 </head>
+
+<header>
+  <a href="../Laboratorio 6/index.php"><button class=regresar>Regresar</button></a>
+</header>
+
 <body>
   <h2>Operaciones Básicas</h2>
+  <div class="primerapp">
   <form action="calculos.php" method="post">
     <label>Número 1:</label>
     <input type="number" name="numero1" required>
@@ -23,6 +29,7 @@
     
     <button type="submit" name="calcular">Calcular</button>
   </form>
-  <a href="index.php">Volver al menú</a>
+
+  </div>
 </body>
 </html>

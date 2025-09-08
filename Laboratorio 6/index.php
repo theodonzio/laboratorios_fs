@@ -21,15 +21,14 @@
 
     <ul>
         <a href="../Laboratorio 1/operaciones.php"><li><img src="../img(apps)/icons8-calculator-64.png" alt="">Calculadora</li></a>
-        <li><img src="../img(apps)/icons8-surface-64.png" alt="">Calculos geometricos</li>
-        <li><img src="../img(apps)/icons8-equal-sign-64.png" alt="">Ecuaciones cuadraticas</li>
-        <li><img src="../img(apps)/icons8-multiply-64.png" alt="">Tablas de multiplicar</li>
-        <li><img src="../img(apps)/icons8-money-64.png" alt="">5 de Oro</li>
-        <li><img src="../img(apps)/icons8-exclamation-64.png" alt="">Factoriales</li>
-        <li><img src="../img(apps)/icons8-numbers-64.png" alt="">Bases numericas</li>
-        <li><img src="../img(apps)/icons8-calculator-64.png" alt="">Calculadora de Bases Numericas</li>
-        <li><img src="../img(apps)/icons8-id-64.png" alt="">Identificador de Cedulas</li>
-        <li><img src="../img(apps)/icons8-numbers-64.png" alt="">Digitos Verificadores</li>
+        <a href="../Laboratorio 1/areas.php"><li><img src="../img(apps)/icons8-surface-64.png" alt="">Calculos geometricos</li></a>
+        <a href="../Laboratorio 1/ecuaciones.php"><li><img src="../img(apps)/icons8-equal-sign-64.png" alt="">Ecuaciones cuadraticas</li></a>
+        <a href="../Laboratorio 2/php/tablas.php"><li><img src="../img(apps)/icons8-multiply-64.png" alt="">Tablas de multiplicar</li></a>
+        <a href="../Laboratorio 2/php/cincoDeOro.php"><li><img src="../img(apps)/icons8-money-64.png" alt="">5 de Oro</li></a>
+        <a href="../Laboratorio 2/php/factorial.php"><li><img src="../img(apps)/icons8-exclamation-64.png" alt="">Factoriales</li></a>
+        <a href="../Laboratorio 3/index.php"><li><img src="../img(apps)/icons8-numbers-64.png" alt="">Bases numericas</li></a>
+        <a href="../Laboratorio 4/generar.php"><li><img src="../img(apps)/icons8-id-64.png" alt="">Identificador de Cedulas</li></a>
+        <a href="../Laboratorio 4/validar.php"><li><img src="../img(apps)/icons8-numbers-64.png" alt="">Digitos Verificadores</li></a>
         <li><img src="../img(apps)/icons8-id-64 (1).png" alt="">Ficha del Estudiante</li>
     </ul>
     </main>

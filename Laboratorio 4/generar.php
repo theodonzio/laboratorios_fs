@@ -16,8 +16,15 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 <!DOCTYPE html>
 <html lang="es">
 <head><meta charset="UTF-8"><title>Generar DV</title></head>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../Laboratorio 6/style.css">
+
 <body>
+
+
+    <header>
+        <a href="../Laboratorio 6/index.php"><button class=regresar>Regresar</button></a>
+    </header>
+
 <div class="container">
 <h2>Parte 2: Generar DV</h2>
 <form method="post">
@@ -25,7 +32,6 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     <button type="submit">Generar</button>
 </form>
 <p><?php echo $resultado; ?></p>
-<a href="index.php">Volver</a>
 </div>
 </body>
 </html>

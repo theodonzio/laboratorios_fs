@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Ecuaciones y Potencias</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../Laboratorio 6/style.css">
 </head>
 <body>
+
+<header>
+  <a href="../Laboratorio 6/index.php"><button class=regresar>Regresar</button></a>
+</header>
+
   <h2>Ecuaciones y Potencias</h2>
   
   <!-- Fórmula de Bhaskara -->
@@ -38,6 +43,6 @@
     <button type="submit" name="potencia">Calcular</button>
   </form>
   
-  <a href="index.php">Volver al menú</a>
+
 </body>
 </html>

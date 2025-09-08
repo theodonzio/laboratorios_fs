@@ -57,9 +57,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && $_POST["accion"] === "calcular") {
 <head>
     <meta charset="UTF-8">
     <title>Conversor y Calculadora</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Laboratorio 6/style.css">
 </head>
 <body>
+
+    <header>
+        <a href="../Laboratorio 6/index.php"><button class=regresar>Regresar</button></a>
+    </header>
+
+
     <h2>Conversor y Calculadora de Bases Numéricas</h2>
 
     <div class="container">
@@ -68,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && $_POST["accion"] === "calcular") {
             <h3>Conversor de bases</h3>
             <form method="post">
                 <input type="hidden" name="accion" value="convertir">
-                Número: <input type="text" name="numero" required>
+                Número: <input type="number" name="numero" required>
                 <select name="base">
                     <option value="10">Decimal</option>
                     <option value="2">Binario</option>
@@ -93,8 +99,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && $_POST["accion"] === "calcular") {
             <h3>Calculadora entre bases</h3>
             <form method="post">
                 <input type="hidden" name="accion" value="calcular">
-                Número 1: <input type="text" name="num1" required>
-                Número 2: <input type="text" name="num2" required>
+                Número 1: <input type="number" name="num1" required>
+                Número 2: <input type="number" name="num2" required>
                 Base:
                 <select name="base">
                     <option value="10">Decimal</option>
