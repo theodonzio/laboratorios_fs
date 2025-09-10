@@ -21,3 +21,13 @@ document.getElementById("formFactorial").addEventListener("submit", function (ev
         return;
     }
 });
+
+
+// necesito que se separe en est funcion la validacion
+document.getElementById("formFactorial").addEventListener("submit", validar);
+
+function validar(){
+
+
+}
+

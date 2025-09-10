@@ -37,7 +37,9 @@ class Calculadora {
 
 $calc = new Calculadora();
 
-// Operaciones básicas
+// Operaciones básicas 
+
+//necesito validar lados de figuras y calculo de tablas. 1-10
 if(isset($_POST["calcular"])) {
     $res = $calc->operar($_POST["numero1"], $_POST["numero2"], $_POST["operacion"]);
     echo "<div class='resultado'>Resultado: $res</div>";

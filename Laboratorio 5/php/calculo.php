@@ -20,15 +20,10 @@ if (isset($_POST['btnObtener'])) {
 
     $promedio = ($nota1 + $nota2 + $nota3 + $nota4 + $nota5 + $nota6 + $nota7 + $nota8 + $nota9 + $nota10) / 10;
 
-    echo "<h2>Ficha del Estudiante</h2>";
-    echo "Nombre completo: $nombre <br>";
-    echo "C.I.: $ci <br>";
-    echo "Localidad: $city <br>";
-    echo "Dirección: $dir <br>";
-    echo "Tel.: $tel <br>";
-    echo "Mail: $mail <br><br>";
 
-    echo "<h3>Promedio: $promedio</h3>";
+    //deberia mejorarse la salida en HTML...
+
+    
 }
 ?>
 

@@ -23,10 +23,10 @@
     </select>
     
     <label>Dato 1:</label>
-    <input type="number" name="dato1" required>
+    <input type="number" min=1 name="dato1" required>
     
     <label>Dato 2 (si aplica):</label>
-    <input type="number" name="dato2">
+    <input type="number" min=1 name="dato2">
     
     <button type="submit" name="calcular_area">Calcular Área</button>
   </form>
